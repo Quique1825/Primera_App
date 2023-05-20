@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Primera_App</string>
+    <string name="textView">Accueillir</string>
+    <string name="textView2">Entrer votre Email</string>
+    <string name="textView3">Tapez votre mot de passe</string>
+    <string name="textView4">vous n\'avez pas d\'utilisateur?</string>
+    <string name="btnLoginAceptar">Entrer dans?</string>
+    <string name="btnRegistrar">S\'inscrire</string>
+    <string name="textView5">Merci de visiter</string>
+    <string name="textview6">Retrouvez-nous à notre emplacement de Santa Rosa</string>
+    <string name="btnHmtelefcel">Téléphones portables</string>
+    <string name="btnHminternet">l\'Internet</string>
+    <string name="btnHmtelfijo">Téléphonie</string>
+    <string name="textView7">Regardez nos offres</string>
+    <string name="textView8">Téléphonie fixe</string>
+    <string name="textView9">Téléphone fixe à la maison</string>
+    <string name="textView10">Téléphone fixe sur le terrain</string>
+    <string name="textView11">internet partout</string>
+    <string name="textView13">Internet sur le terrain</string>
+    <string name="textView12">Internet à la maison</string>
+</resources>

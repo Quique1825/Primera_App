@@ -1,0 +1,25 @@
+<resources>
+
+    <!-- Strings used for fragments for navigation -->
+    <string name="app_name">Primera_App</string>
+    <string name="textView">Bienvenido</string>
+    <string name="textView2">Ingrese su Email</string>
+    <string name="textView3">Ingrese su Password</string>
+    <string name="textView4">No tenes Usuario?</string>
+    <string name="textView5">Gracias por Visitarnos</string>
+    <string name="textview6">Encontranos en nuestro local de Santa Rosa</string>
+    <string name="textView7">Mira Nuestras Ofertas</string>
+    <string name="textView8">Telefonia Fija</string>
+    <string name="textView9">Telefono fijo en casa</string>
+    <string name="textView10">Telefono fijo en el campo</string>
+    <string name="textView11">Internet en todos Lados</string>
+    <string name="textView12">Internet en casa</string>
+    <string name="textView13">Internet en el campo</string>
+    <string name="btnLoginAceptar">Ingresar</string>
+    <string name="btnRegistrar">Registrate</string>
+    <string name="btnHmtelefcel">Celulares</string>
+    <string name="btnHminternet">Internet</string>
+    <string name="btnHmtelfijo">Telefonia</string>
+
+
+</resources>

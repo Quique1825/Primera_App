@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/mnuPrincE_mail"
+        android:icon="@drawable/mnu_email"
+        android:title="Enviar E-mail" />
+    <item
+        android:id="@+id/mnuPrincContacto"
+        android:icon="@drawable/mnu_telefono"
+        android:title="Contactanos por Telefono" />
+    <item
+        android:id="@+id/mnuPrincCartProy"
+        android:icon="@drawable/mnu_carteratrab"
+        android:title="Cartera de Proyectos" />
+    <item
+        android:id="@+id/mnuPrincSalir"
+        android:icon="@drawable/mnu_salir"
+        android:title="Salir"
+        app:showAsAction="always" />
+</menu>
