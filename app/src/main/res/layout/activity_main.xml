@@ -23,9 +23,9 @@
         android:gravity="center"
         android:paddingTop="10dp"
         android:paddingBottom="10dp"
-        android:text="Bienvenido"
+        android:text="@string/textView"
         android:textColor="@color/teal_700"
-        android:textSize="25dp"
+        android:textSize="25sp"
         android:textStyle="italic" />
 
     <ImageView
@@ -46,7 +46,7 @@
         android:layout_marginBottom="5dp"
         android:background="#03A9F4"
         android:gravity="center"
-        android:text="Ingrese su email"
+        android:text="@string/textView2"
         android:textColor="#5E35B1"
         android:textSize="20dp"
         android:textStyle="bold|italic" />
@@ -71,7 +71,7 @@
         android:layout_marginBottom="5dp"
         android:background="#03A9F4"
         android:gravity="center"
-        android:text="Ingrese su Password"
+        android:text="@string/textView3"
         android:textColor="#5E35B1"
         android:textSize="20dp"
         android:textStyle="bold|italic" />
@@ -89,7 +89,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:backgroundTint="#3F51B5"
-        android:text="Ingresar"
+        android:text="@string/btnLoginAceptar"
         app:cornerRadius="25dp" />
 
     <TextView
@@ -98,7 +98,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:gravity="center"
-        android:text="No tenes Usuario?"
+        android:text="@string/textView4"
         android:textSize="20dp"
         android:textStyle="bold" />
 
@@ -107,7 +107,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:backgroundTint="#3F51B5"
-        android:text="Registrate"
+        android:text="@string/btnRegistrar"
         app:cornerRadius="25dp" />
 
 </LinearLayout>

@@ -13,7 +13,7 @@
         android:layout_height="30dp"
         android:fontFamily="sans-serif-smallcaps"
         android:gravity="center"
-        android:text="Mira nuestras Ofertas"
+        android:text="@string/textView7"
         android:textSize="28dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
