@@ -19,4 +19,19 @@
     <string name="textView11">Internet everywhere</string>
     <string name="textView13">internet in the field</string>
     <string name="textView12">internet at home</string>
+    <string name="textView14">We invite you to register</string>
+    <string name="textView15">Name</string>
+    <string name="textView15">Name</string>
+    <string name="textView16">Last name</string>
+    <string name="textView17">City</string>
+    <string name="textView17">City</string>
+    <string name="textView18">Phone</string>
+    <string name="textView19">E-mail</string>
+    <string name="textView20">Password</string>
+    <string name="textView20">Pass</string>
+    <string name="btnRegConfirmar">Confirm Registration</string>
+    <string name="mnuPrincE_mail">Send email</string>
+    <string name="mnuPrincContacto">Contact us by phone</string>
+    <string name="mnuPrincCartProy">Project Portfolio</string>
+    <string name="mnuPrincCartProy">Project Portfolio</string>
 </resources>

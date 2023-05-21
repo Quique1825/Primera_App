@@ -19,4 +19,18 @@
     <string name="textView11">internet partout</string>
     <string name="textView13">Internet sur le terrain</string>
     <string name="textView12">Internet à la maison</string>
+    <string name="textView14">Nous vous invitons à vous inscrire</string>
+    <string name="textView15">Nom</string>
+    <string name="textView16">Le nom</string>
+    <string name="textView17">Ville</string>
+    <string name="textView18">Téléphone</string>
+    <string name="textView19">E-mail</string>
+    <string name="textView20">Mot de passe</string>
+    <string name="textView20">Mot de passe</string>
+    <string name="btnRegConfirmar">Confirmer l\'inscription</string>
+    <string name="mnuPrincE_mail">Envoyer un e-mail</string>
+    <string name="mnuPrincContacto">Contactez-nous par téléphone</string>
+    <string name="mnuPrincContacto">Contactez-nous par téléphone</string>
+    <string name="mnuPrincCartProy">Portefeuille de projets</string>
+    <string name="mnuPrincCartProy">Portefeuille de projets</string>
 </resources>

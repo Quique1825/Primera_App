@@ -12,7 +12,7 @@
         android:title="Contactanos por Telefono" />
     <item
         android:id="@+id/mnuPrincCartProy"
-        android:icon="@drawable/mnu_carteratrab"
+        android:icon="@drawable/baseline_work_24"
         android:title="Cartera de Proyectos" />
     <item
         android:id="@+id/mnuPrincSalir"
