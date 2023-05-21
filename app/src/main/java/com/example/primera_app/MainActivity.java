@@ -4,7 +4,9 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.annotation.SuppressLint;
+import android.app.SearchManager;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -64,25 +66,75 @@ public class MainActivity extends AppCompatActivity {
         switch (item.getItemId()) {
 
             case R.id.mnuPrincE_mail:
-
+                    EnviarEmail();
                 return true;
 
             case R.id.mnuPrincContacto:
-
+                 LlamadaTelefonica();
                 return true;
 
             case R.id.mnuPrincCartProy:
-
+                CarteraLaboral();
                 return true;
 
             case R.id.mnuPrincSalir:
-
                 finish();
 
             default:
                 return true;
         }
     }
+
+    // ---- Inicio void Email ---
+    void EnviarEmail(){
+        composeEmail(new String[]{"quique30081976@gmail.com"}, "Solicitud de Contacto",
+                "Es de nuestro interes contactarnos con Ud. Saludos");
+    }
+
+    @SuppressLint("QueryPermissionsNeeded")
+    public void composeEmail(String[] addresses, String subject, String contenido) {
+        Intent intent = new Intent(Intent.ACTION_SENDTO);
+        intent.setData(Uri.parse("mailto:")); // only email apps should handle this
+        intent.putExtra(Intent.EXTRA_EMAIL, addresses);
+        intent.putExtra(Intent.EXTRA_SUBJECT, subject);
+        intent.putExtra(Intent.EXTRA_TEXT, contenido);
+        if (intent.resolveActivity(getPackageManager()) != null) {
+            startActivity(intent);
+        }
+    }
+    // ---- Fin void Email ----
+
+    // ---- Inicio void llamada ---
+    public void LlamadaTelefonica(){
+        dialPhoneNumber("2954537215");
+    }
+    @SuppressLint("QueryPermissionsNeeded")
+    public void dialPhoneNumber(String phoneNumber) {
+        Intent intent = new Intent(Intent.ACTION_DIAL);
+        intent.setData(Uri.parse("tel:" + phoneNumber));
+        if (intent.resolveActivity(getPackageManager()) != null) {
+            startActivity(intent);
+        }
+    }
+    // ---- Fin void Llamada ----
+
+
+    // ---- Inicio void GITHUB ---
+    public void CarteraLaboral()
+    {
+        searchWeb("https://github.com/Quique1825/Primera_App");
+    }
+    @SuppressLint("QueryPermissionsNeeded")
+    public void searchWeb(String query) {
+        Intent intent = new Intent(Intent.ACTION_WEB_SEARCH);
+        intent.putExtra(SearchManager.QUERY, query);
+        if (intent.resolveActivity(getPackageManager()) != null) {
+            startActivity(intent);
+        }
+    }
+    // ---- Fin void GITHUB ----
+
+
 
     private void Registar() {
         Intent intent = new Intent(this, RegistrarActivity.class);
