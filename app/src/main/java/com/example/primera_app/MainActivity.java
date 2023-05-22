@@ -133,16 +133,10 @@ public class MainActivity extends AppCompatActivity {
         }
     }
     // ---- Fin void GITHUB ----
-
-
-
-    private void Registar() {
+      private void Registar() {
         Intent intent = new Intent(this, RegistrarActivity.class);
         startActivity(intent);
     }
-
-
-
     private void ValidarDatos(String mail, String password)
     {
         if(mail.equals("jose@correo.com") && password.equals("1234"))
