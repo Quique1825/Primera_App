@@ -27,9 +27,9 @@
     <string name="textView19">E-mail</string>
     <string name="textView20">Senha</string>
     <string name="btnRegConfirmar">Confirmar registro</string>
-    <string name="btnRegConfirmar">Confirmar registro</string>
     <string name="mnuPrincE_mail">Enviar email</string>
     <string name="mnuPrincContacto">Contacte-nos por telefone</string>
-    <string name="mnuPrincContacto">Contacte-nos por telefone</string>
     <string name="mnuPrincCartProy">Portfólio de Projetos</string>
+    <string name="first_fragment_label">first_fragment_label</string>
+    <string name="second_fragment_label">second_fragment_label</string>
 </resources>

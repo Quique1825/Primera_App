@@ -26,11 +26,11 @@
     <string name="textView18">Téléphone</string>
     <string name="textView19">E-mail</string>
     <string name="textView20">Mot de passe</string>
-    <string name="textView20">Mot de passe</string>
     <string name="btnRegConfirmar">Confirmer l\'inscription</string>
     <string name="mnuPrincE_mail">Envoyer un e-mail</string>
     <string name="mnuPrincContacto">Contactez-nous par téléphone</string>
-    <string name="mnuPrincContacto">Contactez-nous par téléphone</string>
     <string name="mnuPrincCartProy">Portefeuille de projets</string>
-    <string name="mnuPrincCartProy">Portefeuille de projets</string>
+    <string name="first_fragment_label">first_fragment_label</string>
+    <string name="second_fragment_label">second_fragment_label</string>
+
 </resources>

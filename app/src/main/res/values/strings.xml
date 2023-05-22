@@ -31,6 +31,8 @@
     <string name="mnuPrincE_mail">Enviar E-mail</string>
     <string name="mnuPrincContacto">Contactanos por Telefono</string>
     <string name="mnuPrincCartProy">Cartera de Proyectos</string>
+    <string name="first_fragment_label">first_fragment_label</string>
+    <string name="second_fragment_label">second_fragment_label</string>
 
 
 </resources>
