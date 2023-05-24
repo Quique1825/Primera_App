@@ -15,24 +15,21 @@
     <string name="textView11">Internet en todos Lados</string>
     <string name="textView12">Internet en casa</string>
     <string name="textView13">Internet en el campo</string>
+    <string name="textView14">Te invitamos a Registrarte</string>
     <string name="btnLoginAceptar">Ingresar</string>
     <string name="btnRegistrar">Registrate</string>
     <string name="btnHmtelefcel">Celulares</string>
     <string name="btnHminternet">Internet</string>
     <string name="btnHmtelfijo">Telefonia</string>
-    <string name="textView14">Te invitamos a Registrarte</string>
-    <string name="textView15">Nombre</string>
-    <string name="textView16">Apellido</string>
-    <string name="textView17">Ciudad</string>
-    <string name="textView18">Telefono</string>
-    <string name="textView19">E-mail</string>
-    <string name="textView20">Contraseña</string>
     <string name="btnRegConfirmar">Confirmar Registro</string>
+
+
+
     <string name="mnuPrincE_mail">Enviar E-mail</string>
     <string name="mnuPrincContacto">Contactanos por Telefono</string>
     <string name="mnuPrincCartProy">Cartera de Proyectos</string>
-    <string name="first_fragment_label">first_fragment_label</string>
-    <string name="second_fragment_label">second_fragment_label</string>
+
+
 
 
 </resources>

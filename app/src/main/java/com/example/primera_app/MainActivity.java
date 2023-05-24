@@ -47,10 +47,16 @@ public class MainActivity extends AppCompatActivity {
            btnRegistrar.setOnClickListener(new View.OnClickListener() {
                @Override
                public void onClick(View view) {
-                 Registar();
+                  Toast.makeText(MainActivity.this,"Ir a Registrar", Toast.LENGTH_SHORT).show();
+                   Intent intent = new Intent(MainActivity.this, RegistrarActivity.class);
+                   startActivity(intent);
                }
            });
     }
+
+
+
+
 
 
     @Override
@@ -133,10 +139,9 @@ public class MainActivity extends AppCompatActivity {
         }
     }
     // ---- Fin void GITHUB ----
-      private void Registar() {
-        Intent intent = new Intent(this, RegistrarActivity.class);
-        startActivity(intent);
-    }
+
+
+
     private void ValidarDatos(String mail, String password)
     {
         if(mail.equals("jose@correo.com") && password.equals("1234"))

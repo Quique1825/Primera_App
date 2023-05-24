@@ -15,8 +15,8 @@
 
     <ImageView
         android:id="@+id/imageView14"
-        android:layout_width="272dp"
-        android:layout_height="142dp"
+        android:layout_width="207dp"
+        android:layout_height="132dp"
         android:layout_gravity="center"
         app:srcCompat="@drawable/logo"
         tools:ignore="ContentDescription" />
@@ -40,171 +40,108 @@
         android:id="@+id/textView15"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="5dp"
-        android:layout_marginTop="5dp"
-        android:layout_marginRight="5dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/material_dynamic_neutral70"
         android:gravity="center"
-        android:text="@string/textView15"
-        android:textColor="#3F51B5"
-        android:textSize="20sp"
-        android:textStyle="bold|italic"
-        tools:ignore="TextSizeCheck" />
+        android:text="Nombre y Apellido"
+        android:textSize="20dp"
+        android:textStyle="bold|italic" />
 
     <EditText
         android:id="@+id/edtRegNombre"
-        android:layout_width="380dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="5dp"
-        android:layout_marginTop="5dp"
-        android:background="@color/material_dynamic_neutral_variant70"
+        android:layout_marginTop="10dp"
         android:ems="10"
-        android:gravity="center"
-        android:importantForAutofill="no"
         android:inputType="textPersonName"
-        android:minHeight="35dp"
-        android:textSize="12sp"
-        tools:ignore="LabelFor,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+        android:text="Nombre y apellido"
+        android:textColor="@color/material_dynamic_neutral70"
+        android:textSize="20dp"
+        android:textStyle="italic" />
 
     <TextView
         android:id="@+id/textView16"
-        android:layout_width="379dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="5dp"
-        android:layout_marginTop="5dp"
-        android:layout_marginRight="5dp"
+        android:background="@color/material_dynamic_neutral70"
         android:gravity="center"
-        android:text="@string/textView16"
-        android:textColor="#3F51B5"
-        android:textSize="20sp"
-        android:textStyle="bold|italic"
-        tools:ignore="TextSizeCheck" />
+        android:text="Numero de Telefono"
+        android:textSize="20dp"
+        android:textStyle="bold|italic" />
 
     <EditText
-        android:id="@+id/edtRegApellido"
-        android:layout_width="379dp"
+        android:id="@+id/edtRegTelefono"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="5sp"
-        android:layout_marginTop="5dp"
-        android:background="@color/material_dynamic_neutral_variant70"
+        android:layout_marginTop="10dp"
         android:ems="10"
-        android:gravity="center"
-        android:inputType="textPersonName"
-        android:minHeight="35dp"
-        android:textSize="12sp"
-        tools:ignore="LabelFor,SpeakableTextPresentCheck,TouchTargetSizeCheck"
-        android:importantForAutofill="no" />
+        android:inputType="phone"
+        android:text="Telefono"
+        android:textColor="@color/material_dynamic_neutral_variant70"
+        android:textSize="20dp"
+        android:textStyle="italic" />
 
     <TextView
         android:id="@+id/textView17"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="5dp"
-        android:layout_marginTop="5dp"
-        android:layout_marginRight="5dp"
+        android:background="@color/material_dynamic_neutral70"
         android:gravity="center"
-        android:text="@string/textView17"
-        android:textColor="#3F51B5"
-        android:textSize="20sp"
-        android:textStyle="bold|italic"
-        tools:ignore="TextSizeCheck" />
+        android:text="E-mail"
+        android:textSize="20dp"
+        android:textStyle="bold|italic" />
 
     <EditText
-        android:id="@+id/edtRegPais"
-        android:layout_width="382dp"
+        android:id="@+id/edtRegEmail"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="5sp"
-        android:layout_marginTop="5dp"
-        android:background="@color/material_dynamic_neutral70"
+        android:layout_marginTop="10dp"
         android:ems="10"
-        android:inputType="textPersonName"
-        android:minHeight="35dp"
-        android:textSize="12sp"
-        tools:ignore="LabelFor,SpeakableTextPresentCheck,TouchTargetSizeCheck"
-        android:autofillHints="" />
+        android:inputType="textEmailAddress"
+        android:text="Email"
+        android:textColor="@color/material_dynamic_neutral60"
+        android:textSize="20dp"
+        android:textStyle="italic" />
 
     <TextView
         android:id="@+id/textView18"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="5dp"
-        android:layout_marginTop="5dp"
-        android:layout_marginRight="5dp"
+        android:background="@color/material_dynamic_neutral70"
         android:gravity="center"
-        android:text="@string/textView18"
-        android:textColor="#3F51B5"
-        android:textSize="20sp"
-        android:textStyle="bold|italic"
-        tools:ignore="TextSizeCheck" />
+        android:text="Ingrese Contraseña"
+        android:textSize="20dp"
+        android:textStyle="bold|italic" />
 
     <EditText
-        android:id="@+id/edtRegCiudad"
-        android:layout_width="381dp"
+        android:id="@+id/edtRegPass"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="5sp"
-        android:layout_marginTop="5dp"
-        android:background="@color/material_dynamic_neutral70"
+        android:layout_marginTop="10dp"
         android:ems="10"
-        android:inputType="number|textPersonName"
-        android:minHeight="35dp"
-        android:textSize="12sp"
-        tools:ignore="LabelFor,SpeakableTextPresentCheck,TouchTargetSizeCheck"
-        android:autofillHints="" />
+        android:inputType="textPassword"
+        android:text="Contraseña"
+        android:textSize="20dp" />
 
     <TextView
         android:id="@+id/textView19"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="5dp"
-        android:layout_marginTop="5dp"
-        android:layout_marginRight="5dp"
+        android:background="@color/material_dynamic_neutral70"
         android:gravity="center"
-        android:text="@string/textView19"
-        android:textColor="#3F51B5"
-        android:textSize="20sp"
-        android:textStyle="bold|italic"
-        tools:ignore="TextSizeCheck" />
+        android:text="Confirmar Contraseña"
+        android:textSize="20dp"
+        android:textStyle="italic" />
 
     <EditText
-        android:id="@+id/edtRegEmail"
-        android:layout_width="382dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="5sp"
-        android:layout_marginTop="5dp"
-        android:background="@color/material_dynamic_neutral70"
-        android:ems="10"
-        android:inputType="textEmailAddress"
-        android:minHeight="35dp"
-        android:textSize="12sp"
-        tools:ignore="LabelFor,SpeakableTextPresentCheck,TouchTargetSizeCheck"
-        android:autofillHints="" />
-
-    <TextView
-        android:id="@+id/textView20"
+        android:id="@+id/edtRegConfPass"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="5dp"
-        android:layout_marginTop="5dp"
-        android:layout_marginRight="5dp"
-        android:gravity="center"
-        android:text="@string/textView20"
-        android:textColor="#3F51B5"
-        android:textSize="20sp"
-        android:textStyle="bold|italic"
-        tools:ignore="TextSizeCheck" />
-
-    <EditText
-        android:id="@+id/edtRegPass"
-        android:layout_width="381dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="5sp"
-        android:layout_marginTop="5dp"
-        android:background="@color/material_dynamic_neutral70"
+        android:layout_marginTop="10dp"
         android:ems="10"
         android:inputType="textPassword"
-        android:minHeight="35dp"
-        android:textSize="12sp"
-        tools:ignore="LabelFor,SpeakableTextPresentCheck,TouchTargetSizeCheck"
-        android:autofillHints="" />
+        android:text="Confirmar Contraseña"
+        android:textSize="20dp" />
 
     <Button
         android:id="@+id/btnRegConfirmar"

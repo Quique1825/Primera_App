@@ -2,6 +2,7 @@ package com.example.primera_app;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -11,31 +12,30 @@ import android.widget.Toast;
 
 public class RegistrarActivity extends AppCompatActivity {
 
+    Button btnRegConfirmar;
     EditText edtRegNombre;
-    EditText edtRegApellido;
-    EditText edtRegPais;
-    EditText edtRegCiudad;
+    EditText edtRegTelefono;
     EditText edtRegEmail;
     EditText edtRegPass;
+    EditText edtRegConfPass;
 
-    Button btnRegConfirmar;
-
+    @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_registrar);
 
+        btnRegConfirmar = findViewById(R.id.btnRegConfirmar);
         edtRegNombre = findViewById(R.id.edtRegNombre);
-        edtRegApellido = findViewById(R.id.edtRegApellido);
-        edtRegPais = findViewById(R.id.edtRegPais);
-        edtRegCiudad = findViewById(R.id.edtRegCiudad);
+        edtRegTelefono = findViewById(R.id.edtRegTelefono);
         edtRegEmail = findViewById(R.id.edtRegEmail);
         edtRegPass = findViewById(R.id.edtRegPass);
+        edtRegConfPass = findViewById(R.id.edtRegConfPass);
 
-        btnRegConfirmar.setOnClickListener(new View.OnClickListener() {
+            btnRegConfirmar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-               ConfirmarRegistro();
+                ConfirmarRegistro();
             }
         });
     }
