@@ -32,17 +32,16 @@ public class RegistrarActivity extends AppCompatActivity {
         edtRegPass = findViewById(R.id.edtRegPass);
         edtRegConfPass = findViewById(R.id.edtRegConfPass);
 
-            btnRegConfirmar.setOnClickListener(new View.OnClickListener() {
+        btnRegConfirmar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                ConfirmarRegistro();
+                Toast.makeText(RegistrarActivity.this, "Registro Confirmado", Toast.LENGTH_LONG).show();
+                Intent intent = new Intent(RegistrarActivity.this, HomeActivity.class);
+                startActivity(intent);
             }
         });
     }
-
-    private void ConfirmarRegistro(){
-        Toast.makeText(this, "Registro Confirmado", Toast.LENGTH_LONG).show();
-        Intent intent = new Intent(this, HomeActivity.class);
-        startActivity(intent);
-    }
 }
+
+
+

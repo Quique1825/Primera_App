@@ -128,7 +128,7 @@ public class MainActivity extends AppCompatActivity {
     // ---- Inicio void GITHUB ---
     public void CarteraLaboral()
     {
-        searchWeb("https://github.com/Quique1825/Primera_App");
+        searchWeb("https://github.com/Quique1825");
     }
     @SuppressLint("QueryPermissionsNeeded")
     public void searchWeb(String query) {
