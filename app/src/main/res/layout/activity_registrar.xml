@@ -41,11 +41,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:background="@color/material_dynamic_neutral70"
+
         android:gravity="center"
         android:text="Nombre y Apellido"
         android:textSize="20dp"
         android:textStyle="bold|italic" />
+
 
     <EditText
         android:id="@+id/edtRegNombre"
@@ -54,10 +55,9 @@
         android:layout_marginTop="10dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:minWidth="48dp"
-        android:minHeight="48dp"
+        android:minHeight="35dp"
         android:text="Nombre y apellido"
-        android:textColor="@color/material_dynamic_neutral70"
+
         android:textSize="20dp"
         android:textStyle="italic" />
 
@@ -65,7 +65,7 @@
         android:id="@+id/textView16"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/material_dynamic_neutral70"
+
         android:gravity="center"
         android:text="Numero de Telefono"
         android:textSize="20dp"
@@ -81,7 +81,7 @@
         android:minWidth="48dp"
         android:minHeight="48dp"
         android:text="Telefono"
-        android:textColor="@color/material_dynamic_neutral_variant70"
+
         android:textSize="20dp"
         android:textStyle="italic" />
 
@@ -89,7 +89,7 @@
         android:id="@+id/textView17"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/material_dynamic_neutral70"
+
         android:gravity="center"
         android:text="E-mail"
         android:textSize="20dp"
@@ -105,7 +105,7 @@
         android:minWidth="48dp"
         android:minHeight="48dp"
         android:text="Email"
-        android:textColor="@color/material_dynamic_neutral60"
+
         android:textSize="20dp"
         android:textStyle="italic" />
 
@@ -113,7 +113,7 @@
         android:id="@+id/textView18"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/material_dynamic_neutral70"
+
         android:gravity="center"
         android:text="Ingrese Contraseña"
         android:textSize="20dp"
@@ -135,11 +135,11 @@
         android:id="@+id/textView19"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/material_dynamic_neutral70"
+
         android:gravity="center"
         android:text="Confirmar Contraseña"
         android:textSize="20dp"
-        android:textStyle="italic" />
+        android:textStyle="bold|italic" />
 
     <EditText
         android:id="@+id/edtRegConfPass"
