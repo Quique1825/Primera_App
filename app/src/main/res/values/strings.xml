@@ -28,8 +28,14 @@
     <string name="mnuPrincE_mail">Enviar E-mail</string>
     <string name="mnuPrincContacto">Contactanos por Telefono</string>
     <string name="mnuPrincCartProy">Cartera de Proyectos</string>
-
-
+    <string name="textView15">Nombre y Apellido</string>
+    <string name="textView16">Numero de Telefono</string>
+    <string name="textView17">E-mail</string>
+    <string name="textView18">Ingrese Contraseña</string>
+    <string name="textView19">Confirmar Contraseña</string>
+    <string name="edtRegNombre">Nombre y Apellido</string>
+    <string name="edtRegTelefono">Telefono</string>
+    <string name="edtRegEmail">E-mail</string>
 
 
 </resources>

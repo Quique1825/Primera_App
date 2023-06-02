@@ -15,12 +15,11 @@
     <string name="textView13">internet in the field</string>
     <string name="textView12">internet at home</string>
     <string name="textView14">We invite you to register</string>
-    <string name="textView15">Name</string>
-    <string name="textView16">Last name</string>
-    <string name="textView17">City</string>
-    <string name="textView18">Phone</string>
-    <string name="textView19">E-mail</string>
-    <string name="textView20">Password</string>
+    <string name="textView15">Name and surname</string>
+    <string name="textView16">" Phone number"</string>
+    <string name="textView17">E-mail</string>
+    <string name="textView18">Enter Password</string>
+    <string name="textView19">Confirm Password</string>
     <string name="btnHmtelefcel">Cell phones</string>
     <string name="btnHminternet">Internet</string>
     <string name="btnHmtelfijo">Telephony</string>
@@ -30,6 +29,7 @@
     <string name="mnuPrincE_mail">Send email</string>
     <string name="mnuPrincContacto">Contact us by phone</string>
     <string name="mnuPrincCartProy">Project Portfolio</string>
-    <string name="first_fragment_label">first_fragment_label</string>
-    <string name="second_fragment_label">second_fragment_label</string>
+    <string name="edtRegNombre">Name and surname</string>
+    <string name="edtRegTelefono">Phone</string>
+    <string name="edtRegEmail">E-mail</string>
 </resources>
